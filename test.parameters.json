@@ -1,0 +1,18 @@
+{
+    "$schema": "https://schemastore.azurewebsites.net/schemas/json/package.json",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "name": {
+            "value": "containerapp"
+        },
+        "location": {
+            "value": "northeurope"
+        },
+        "containerImage": {
+            "value": "mcr.microsoft.com/azuredocs/containerapps-helloworld:latest"
+        },
+        "environment": {
+            "value": "test"
+        }
+    }
+}
